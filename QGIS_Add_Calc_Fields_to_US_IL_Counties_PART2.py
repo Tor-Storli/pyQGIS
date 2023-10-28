@@ -57,7 +57,7 @@ layer.updateFields()
 # 2) 'AWATER'  = 'Water Area'
 # 3) Total Area =  ("ALAND" + "AWATER")
 # 4) Conversion Factor for square meters to square Miles:   0.0000003861
-# **Note:  Both fields are calculated by the US Census Bureau and the measurement is in Square feet
+# **Note:  Both fields are calculated by the US Census Bureau and the measurement is in Square meters
 # ----------------------------------------------------------------------------------------------------------------------------------
 
 areaTotal = QgsExpression('"ALAND" + "AWATER"')
